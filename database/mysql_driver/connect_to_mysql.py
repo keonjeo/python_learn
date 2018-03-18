@@ -15,6 +15,19 @@
 # sudo python get-pip.py
 # sudo pip install MySQL-python
 
+#################     前提条件       ##################
+#1. 已经创建了数据库 TESTDB.
+#2. 在TESTDB数据库中您已经创建了表 EMPLOYEE
+#3. EMPLOYEE表字段为 FIRST_NAME, LAST_NAME, AGE, SEX 和 INCOME。
+#4. 连接数据库TESTDB使用的用户名为 "testuser" ，密码为 "test123"。
+#5. 在本地上已经安装了 Python MySQLdb 模块。
+#######################################################
+
+
+#######################################################
+#                       数据库连接                      #
+#######################################################
+
 # import the libs you want to use
 import MySQLdb
 
